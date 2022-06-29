@@ -98,7 +98,7 @@ export default function(){
 	      field: "actions",
 	      flex: 0.3,
 	      headerName: "Message",
-	      minWidth: 180,
+	      minWidth: 150,
 	      // type: "number",
 	      sortable: false,
 	      renderCell: (params) => {
