@@ -81,16 +81,16 @@ export default function(){
 	      field: "id",
 	      headerName: "Date",
 	      type: "Date",
-	      minWidth: 150,
+	      minWidth: 120,
 	      flex: 0.5,
 	    },
 
-	    { field: "name", headerName: "Name", minWidth: 120, flex: 0.5 },
+	    { field: "name", headerName: "Name", minWidth: 110, flex: 0.5 },
 
 	    {
 	      field: "email",
 	      headerName: "Email",
-	      minWidth: 140,
+	      minWidth: 120,
 	      flex: 1,
 	    },
 
@@ -98,7 +98,7 @@ export default function(){
 	      field: "actions",
 	      flex: 0.3,
 	      headerName: "Message",
-	      minWidth: 100,
+	      minWidth: 150,
 	      // type: "number",
 	      sortable: false,
 	      renderCell: (params) => {
