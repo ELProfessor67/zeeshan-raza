@@ -1219,6 +1219,13 @@ li
   font-size: 1.8rem;
 }
 
+.MuiDataGrid-columnHeader div 
+{
+  color: var(--white);
+  background: var(--black);
+  font-size: 1.8rem;
+}
+
 .section_skiils .skills_list_container .css-imf0nl-MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainer
 {
   justify-content: center;
