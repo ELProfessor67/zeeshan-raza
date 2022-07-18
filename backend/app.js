@@ -36,6 +36,7 @@ app.use("/api/v1",Count);
 //set header 
 app.use(function (req, res, next) {  
   res.header("X-powered-by", "I don't tell");
+  res.header("Server", "I don't tell");
   next();
 });
 
