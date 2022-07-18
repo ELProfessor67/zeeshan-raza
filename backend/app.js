@@ -33,6 +33,11 @@ app.use("/api/v1",Message);
 app.use("/api/v1",Admin);
 app.use("/api/v1",Count);
 
+//set header 
+app.use(function (req, res, next) {  
+  res.header("X-powered-by", "I don't tell");
+  next();
+});
 
 
 // render file
